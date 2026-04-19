@@ -18,7 +18,25 @@
       },
       "package": "com.joaogarcia.myfinance"
     },
-    "plugins": ["expo-router"],
-    "scheme": "myfinance"
+    "plugins": [
+      "expo-router",
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "newArchEnabled": true
+          }
+        }
+      ]
+    ],
+    "scheme": "myfinance",
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "4722abe7-a2c1-46c8-bf13-902fe3153330"
+      }
+    }
   }
 }
