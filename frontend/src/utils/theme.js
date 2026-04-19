@@ -1,0 +1,33 @@
+export const dark = {
+  bg:         '#080808',
+  surface:    '#111111',
+  surface2:   '#1a1a1a',
+  border:     '#242424',
+  gold:       '#D4A24C',
+  goldSoft:   'rgba(212,162,76,0.12)',
+  goldBorder: 'rgba(212,162,76,0.2)',
+  text:       '#F5F2EA',
+  muted:      '#A19A90',
+  faint:      '#3a3a3a',
+  success:    '#27c281',
+  danger:     '#ff6b6b',
+  blue:       '#7c8cf8',
+  mode:       'dark',
+}
+
+export const light = {
+  bg:         '#F5F2EA',
+  surface:    '#FFFFFF',
+  surface2:   '#F0EDE6',
+  border:     '#E0DDD6',
+  gold:       '#B8860B',
+  goldSoft:   'rgba(184,134,11,0.1)',
+  goldBorder: 'rgba(184,134,11,0.25)',
+  text:       '#1a1a1a',
+  muted:      '#6b6560',
+  faint:      '#ddd9d2',
+  success:    '#1a9e65',
+  danger:     '#e05252',
+  blue:       '#5a6af0',
+  mode:       'light',
+}
